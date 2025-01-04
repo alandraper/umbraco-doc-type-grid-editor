@@ -34,17 +34,17 @@ namespace Our.Umbraco.DocTypeGridEditor
                         }
                     }
                 },
-                Scripts = new[]
-                {
+                Scripts =
+                [
                     "/App_Plugins/DocTypeGridEditor/Js/doctypegrideditor.resources.js",
                     "/App_Plugins/DocTypeGridEditor/Js/doctypegrideditor.services.js",
                     "/App_Plugins/DocTypeGridEditor/Js/doctypegrideditor.controllers.js",
                     "/App_Plugins/DocTypeGridEditor/Js/doctypegrideditor.directives.js"
-                },
-                Stylesheets = new[]
-                {
+                ],
+                Stylesheets =
+                [
                     "/App_Plugins/DocTypeGridEditor/Css/doctypegrideditor.css"
-                }
+                ]
 
             });
         }
